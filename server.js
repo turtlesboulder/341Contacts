@@ -24,5 +24,6 @@ database.initDB((err)=>{
         // Can also log here if I want.
     }
 })
+// We seem to get a connection error until some time has passed... 
 
 
