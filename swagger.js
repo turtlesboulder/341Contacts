@@ -14,4 +14,4 @@ const endpointsFiles = ['./backend/routes/index.js'];
 
 swaggerAutogen(outputFile, endpointsFiles, doc);
 // Whenever you run node swagger.js, make sure to update the swagger.json file by removing api docs and changing localhost to
-// https://cse341-contacts-fall-2023.onrender.com 
+// cse341-contacts-fall-2023.onrender.com 
