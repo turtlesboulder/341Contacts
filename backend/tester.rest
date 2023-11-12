@@ -1,1 +1,28 @@
-GET http://localhost:8080/
+GET http://localhost:8080/dogs
+
+GET http://localhost:8080/dogs/6546b56664e8f4b25212bdab
+
+POST http://localhost:8080/dogs HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Fleetwood",
+    "lastName": "Booner",
+    "email": "FleetwoodB@example.com",
+    "favoriteColor": "Brown",
+    "birthday": "June 15 2022"
+}
+
+
+PUT http://localhost:8080/dogs/6546b56664e8f4b25212bdab HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Snickers",
+    "lastName": "Deutschland",
+    "email": "LongDog@example.com",
+    "favoriteColor": "Brown",
+    "birthday": "October 1 2018"
+}
+
+DELETE http://localhost:8080/dogs/65502bf27bb2811aa31f6163
